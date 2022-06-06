@@ -1,0 +1,43 @@
+ 
+ 
+ 
+ How to create branch --- click on top ticket number in jira
+                        on  right side- git integration
+                        create branch
+						
+						Branch name should be- issue(bug or devlopd) then Ticketname then version
+ 
+ -----------------------------------------------------------------------------------
+                                                       Push cmd             
+ git status
+
+git diff src/main/java/com/rabit/util/VersionControl.java
+ 
+ 
+ 
+  git fetch
+  
+  git stash
+  
+   git checkout New branch name
+   
+   git pull
+git stash apply
+git status
+
+ git add src/main/java/com/rabit/admin/rest/controller/VersionControlRestController.java 
+src/main/java/com/rabit/admin/rest/service/VersionControlService.java src/main/java/com/rabit/admin/rest/service/impl/VersionControlServiceImpl.java 
+src/main/java/com/rabit/errorcodes/ErrorCodeMessages.java 
+    // git add (name of all file in which changes made seperated by space)
+	
+	git commit -m "Backend changes AR-23742 bug fixes - 22.1"
+ git push
+ git status
+ 
+                                                         Pull cmd
+														 
+														 
+														 from the same repo git pull
+
+
+
